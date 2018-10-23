@@ -8,8 +8,8 @@ client.on('ready', () => {
 
 });
 
-const devs = ['371086632138571788' , '' , '' , ''];
-const adminprefix = "'";
+const devs = ['504265702891585546' , '' , '' , ''];
+const adminprefix = ".";
 client.on('message', message => {
     var argresult = message.content.split(` `).slice(1).join(' ');
       if (!devs.includes(message.author.id)) return;
